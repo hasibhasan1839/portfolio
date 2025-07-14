@@ -7,7 +7,6 @@ const Education: React.FC = () => {
       institution: 'American International University-Bangladesh (AIUB)',
       degree: 'BSc in Computer Science and Engineering',
       period: '2022 – Present',
-      score: 'CGPA 3.01',
       description: 'Currently pursuing my bachelor\'s degree with a focus on AI, IoT, and software development.'
     },
     {
@@ -75,11 +74,7 @@ const Education: React.FC = () => {
                       </span>
                     </div>
                     
-                    <div className="mb-3">
-                      <span className="inline-block px-3 py-1 bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 rounded-full text-sm font-medium">
-                        {education.score}
-                      </span>
-                    </div>
+
                     
                     <p className="text-gray-600 dark:text-gray-400">
                       {education.description}
